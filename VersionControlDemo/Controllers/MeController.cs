@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿//Han Nguuyen
+using Microsoft.AspNetCore.Mvc;
 
 namespace VersionControlDemo.Controllers
 {
@@ -9,7 +10,7 @@ namespace VersionControlDemo.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new { name = "Han Nguyen" });
+            return Ok(new { name = "Han Nguyen", school = "University of Cincinnati" });
         }
     }
 }
